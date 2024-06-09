@@ -51,6 +51,7 @@ window.addEventListener('turbo:load', function(){
 
   const getGrandchildCategoryData = (childCategory) => {
     const childValue = childCategory.value;
+    
     categoryXHR(childValue);
 
     XHR.onload = () => {
